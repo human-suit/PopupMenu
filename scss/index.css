@@ -1,0 +1,120 @@
+/* body {
+  overflow-y: hidden;
+} */
+@font-face {
+  font-family: "TT Lakes";
+  src: url("/fonts/TTLakes-Medium.eot");
+  src: local("/fonts/TT Lakes Medium"), local("/fonts/TTLakes-Medium"),
+    url("/fonts/TTLakes-Medium.eot?#iefix") format("embedded-opentype"),
+    url("/fonts/TTLakes-Medium.woff2") format("woff2"),
+    url("/fonts/TTLakes-Medium.woff") format("woff"),
+    url("/fonts/TTLakes-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "TT Lakes";
+}
+.flex {
+  display: flex;
+}
+.flex:first-child {
+  gap: 20px;
+}
+#wrapper {
+  position: fixed;
+  min-width: 320px;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0 auto;
+  box-shadow: 22px 4px 19px -3px rgba(34, 60, 80, 0.26);
+  display: grid;
+  grid-template-rows: 100px 1fr;
+}
+ul {
+  align-items: center;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+a {
+  text-decoration: none;
+  color: #1b1c21;
+}
+a:hover {
+  color: #7e7e82;
+}
+.header {
+  height: 88px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+button:hover{
+  cursor: pointer;
+}
+.button{
+  background-color: #FF3E79;
+  border: 0px solid transparent;
+  border-radius: 50%;
+  padding: 16px;
+}
+.header > button:first-child{
+  margin-left: 10px;
+}
+.header > img{
+  margin-left: 20px;
+}
+.header > button > img{
+  height: 22px;
+} 
+.header > button:last-child{
+  margin-left: auto;
+}
+.blueLine{
+  border-left: 5px solid #41F6D7;
+}
+.blueLine > a{
+  margin-left: -5px;
+  color: #7E7E82;
+}
+
+.servise__item{
+  padding: 10px 0px 10px 30px;
+  margin: 30px 0px;
+}
+
+.servise__item > a{
+  font-size: 18px;
+}
+
+.footer{
+  padding-left: 20px;
+  bottom: 0;
+}
+.footer__language{
+  display: flex;
+}
+.footer__language > li:first-child > button{
+  color: #7E7E82;
+}
+address{
+  padding: 20px 0px;
+  display: grid;
+}
+address{
+  font-size: 18px;
+}
+address > a:last-child{
+  font-weight: 800;
+  font-size: 24px;
+}
+.footer__language > li > button{
+  background-color: transparent;
+  color: black;
+  border: 0px;
+  font-size: 18px;
+  font-weight: 600;
+}
